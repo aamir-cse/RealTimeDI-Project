@@ -30,8 +30,8 @@ public final class  CustomerDAOImpl implements ICustomerDAO {
 			ps.setString(1, bo.getCust_Name());
 			ps.setString(2, bo.getCust_Addrs());
 			ps.setFloat(3, bo.getpAmt());
-			ps.setFloat(4, bo.getRate());
-			ps.setFloat(5, bo.getTime());
+			ps.setFloat(5, bo.getRate());
+			ps.setFloat(4, bo.getTime());
 			ps.setFloat(6, bo.getInterest_Amount());
 			//Execute the query
 			 count = ps.executeUpdate();
